@@ -17,8 +17,8 @@ phases:
       # - command
       # - command
   #pre_build:
-    #commands:
-      # - command
+    commands:
+      - git show-refs --tags
       # - command
     #finally:
       # - command
