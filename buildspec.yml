@@ -19,6 +19,7 @@ phases:
   pre_build:
     commands:
       - git show-ref --tags
+      - git tag -l --points-at HEAD
       # - command
     #finally:
       # - command
